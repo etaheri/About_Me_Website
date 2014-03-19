@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hey Stinkdigital</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="icon" type="image/png" href="fav.png">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<!-- Adobe typkit font -->
+		<script type="text/javascript" src="//use.typekit.net/vvc5esv.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<!-- Script to change tile when user leaves-->
+		<script>
+		$(window).focus(function() {
+    		document.title= "Hey Stinkdigital";
+		});
+
+		$(window).blur(function() {
+    		document.title= "Come back!";
+		});
+		</script>
+		<!-- Typer Script --> 
+		<script>
+   		$.getScript('https://raw.github.com/layervault/jquery.typer.js/master/src/jquery.typer.js', function () {
+    		$(function () {
+     			$('[data-typer-targets]').typer();
+    		});
+  		});
+  		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!-- Google analytics -->
+		<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-25772940-3', 'eriktaheri.com');
+ 		ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<!-- Logo -->
+					<h1 id="logo"><a href="#">Erik Taheri</a></h1>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#one">What I Do</a></li>
+							<li><a href="#two">Who I Am</a></li>
+							<li><a href="#work">My Work</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+			</header>
+			
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container small">
+					<header>
+						<!-- SVG goodness -- swapp when error -->
+						<img src="images/svg/etstink-01.svg" class="svg" style="padding-bottom: 5em;" onerror="this.onerror=null; this.src='images/svg/etstink-01.png'">
+						<!-- Typer object, if no script the default is shown --> 
+						<h2 data-typer-targets='
+   						{ "targets" : ["Hello Stinkdigital!","Hi Stinkdigital!","Yo Stinkdigital!","Hola Stinkdigital!","Howdy Stinkdigital!", "Wazzup Stinkdigital!"]}'>Hi Stinkdigital!</h2>
+					</header>
+					<p>My name is Erik Taheri. I am an experienced and educated creative programmer soon to graduate college. I have excitement, skills, and want to learn from and work for the most creative and innovative production agency!</p>
+					<footer>
+						<!--<a href="#one" class="button style2 down">More</a>-->
+					</footer>
+				</div>
+			</section>
+		
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>In less than 60 days, I will graduate from Canisius College, in Buffalo, NY, with a dual-major in Computer Science and Digital Media Arts. I am familiar with HTML5, CSS3, JavaScript, web/software design patterns, web applications, and much more. My knowledge and experience allows me to create maintainable and modern applications. My passions include film-making and I also have an interest in design. To sum it up...<strong>I create and love anything digital!</strong></p>
+				</div>
+			</section>
+		
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>I am a 21 year old snow lover and adventurer with a passion for digital creation. Whether the mountains are calling or the hustle and bustle of city life, I enjoy writing code and take pride in my work. I seize the most out of life by continuing to learn, perusing goals, and trying new things. My goal is to use my skills and knowledge to work for Stinkdigital, where my passion for all things digital would grow and flourish!</p>
+				</div>
+			</section>
+			
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>My Work</h2>
+						<p>My goal is to create, captivate, and innovate.</p>
+					</header>
+					
+					<!--
+						 Lightbox Gallery
+						 
+						 Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox
+					-->
+						<div class="container small gallery">
+							<div class="row flush images">
+								<div class="4u"><a href="https://vimeo.com/76358120" data-poptrox="vimeo,800x480" class="image full l"><img src="images/fulls/museum.jpg" title="Interactive Digital Media" alt="" /><h2 style="position: absolute; top: 30%; left: 0; width: 100%; color: white;">Interactive Digital Exhibit</h2></a></div>
+								
+								<div class="4u"><a href="http://vimeo.com/66034207" data-poptrox="vimeo,800x480" class="image full r"><img src="images/fulls/film.jpg" title="Film Reel" alt="" /><h2 style="position: absolute; top: 40%; left: 0; width: 100%; color: white;">Film-making</h2></a></div>
+
+								<div class="4u"><a href="https://vimeo.com/88713729" data-poptrox="vimeo,800x480" class="image full l"><img src="images/fulls/code.jpg" title="Web/Software" alt="" /><h2 style="position: absolute; top: 40%; left: 0; width: 100%; color: white;">Web/Software</h2></a></div>
+							</div>
+						</div>
+						<br>
+						<p>Want more? Head over to my <a href="http://eriktaheri.com">portfolio!</a></p>
+				</div>
+			</section>
+			
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<!-- More svg -->
+						<img src="images/svg/callmeSD.svg" class="svg" style="padding-bottom:3em;" onerror="this.onerror=null; this.src='images/svg/callmeSD.png'">
+						<h1>NY is an awesome place! It would be great to meet you!</h1>
+						<h1>P: (716) 359-6715</h1>
+						<a href="mailto:etaheri@me.com"><h1>E: etaheri@me.com</h1></a>
+						<a href="http://www.eriktaheri.com/wp-content/uploads/2013/02/eriktaheri_resume_9_17_13.pdf"><h1>Download my resume!</h1></a>
+					</header>
+					
+						
+				</div>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Erik Taheri</li>
+						<li>Design: <a href="http://www.eriktaheri.com/">Erik Taheri</a></li>
+					</ul>
+			
+			</footer>
+
+	</body>
+</html>
